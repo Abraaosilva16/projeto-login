@@ -68,13 +68,32 @@ form > div.campo{
     background-color: #5f2c82;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
     width: 100%;
 } 
 
 div.campo > label{
     display: none;
+}
+
+div.campo > span {
+    color: white;
+   
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+  background-color: #94cfcd;  
+  font-size:1em ;
+width: calc(100% - 56px);
+  height: 100%;
+  transform: translatey(-10px);
+  border: 0px;
+  border-radius: 8px;
+  padding: 4px;
 }
 
 section#login{
